@@ -31,15 +31,15 @@ const products = [
     { name: "اسبريسو ميكاتو", type: "قهوة", price: 38, image: "https://pbs.twimg.com/media/EVwjNWPXgAIzEDJ.jpg" },
   
     // عصاير فريش
-    { name: "عصير بطيخ", type: "عصاير فريش", price: 50, image: "https://img.youm7.com/ArticleImgs/2019/6/25/131745-%D8%B9%D8%B5%D9%8A%D8%B1-%D8%A8%D8%B7%D9%8A%D8%AE-(5).jpg" },
-    { name: "عصير مانجا", type: "عصاير فريش", price: 50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpvosGP3NaA20LZ5r2bPwXn6odvAlZQCqmiw&s" },
-    { name: "عصير فراولة", type: "عصاير فريش", price: 50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsamsc1rV6sah8k6jqrmCMaHJ1jeR32HNw_w&s" },
-    { name: "عصير جوافة", type: "عصاير فريش", price: 50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGXK1OILQi3_paCe1n1tgFX1xI38OSV6SkzQ&s" },
-    { name: "عصير موز", type: "عصاير فريش", price: 50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2cPFXYdfP2w4754_xQP24LIisOIV2EdlHNQ&s" },
+    { name: "عصير بطيخ", type: "عصاير فريش", price: 35, image: "https://img.youm7.com/ArticleImgs/2019/6/25/131745-%D8%B9%D8%B5%D9%8A%D8%B1-%D8%A8%D8%B7%D9%8A%D8%AE-(5).jpg" },
+    { name: "عصير مانجا", type: "عصاير فريش", price: 40, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpvosGP3NaA20LZ5r2bPwXn6odvAlZQCqmiw&s" },
+    { name: "عصير فراولة", type: "عصاير فريش", price: 35, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsamsc1rV6sah8k6jqrmCMaHJ1jeR32HNw_w&s" },
+    { name: "عصير جوافة", type: "عصاير فريش", price: 35, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGXK1OILQi3_paCe1n1tgFX1xI38OSV6SkzQ&s" },
+    { name: "عصير موز", type: "عصاير فريش", price: 35, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2cPFXYdfP2w4754_xQP24LIisOIV2EdlHNQ&s" },
     { name: "عصير كيوي", type: "عصاير فريش", price: 50, image: "https://static.webteb.net/images/content/tbl_articles_article_29526_56900ea1b4c-7bbb-4944-8ea5-a06df1f4ab7e.jpg" },
-    { name: "عصير ليمون", type: "عصاير فريش", price: 45, image: "https://kitchen.sayidaty.net/uploads/small/2d/2d3ca110e699ced93bfdd6f103ab930c_w750_h750.jpg" },
-    { name: "عصير اناناس", type: "عصاير فريش", price: 55, image: "https://cdn.altibbi.com/cdn/cache/1000x500/image/2023/06/07/c38439f34b982f04ac34622c913ccb27.jpg.webp" },
-    { name: "عصير افوكادو", type: "عصاير فريش", price: 55, image: "https://kitchen.sayidaty.net/uploads/small/d4/d488339775260323285031fec334db64_w750_h500.jpg" },
+    { name: "عصير ليمون", type: "عصاير فريش", price: 30, image: "https://kitchen.sayidaty.net/uploads/small/2d/2d3ca110e699ced93bfdd6f103ab930c_w750_h750.jpg" },
+    { name: "عصير اناناس", type: "عصاير فريش", price: 35, image: "https://cdn.altibbi.com/cdn/cache/1000x500/image/2023/06/07/c38439f34b982f04ac34622c913ccb27.jpg.webp" },
+    { name: "عصير افوكادو", type: "عصاير فريش", price: 65, image: "https://kitchen.sayidaty.net/uploads/small/d4/d488339775260323285031fec334db64_w750_h500.jpg" },
   
     // موخيتو
     { name: "موخيتو مانجا", type: "موخيتو", price: 50, image: "https://su24su.com/wp-content/uploads/2023/12/1701515896_641_%D9%83%D9%8A%D9%81-%D8%A7%D8%B3%D9%88%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D9%87%D9%8A%D8%AA%D9%88-%D8%A8%D8%A7%D9%84%D8%B3%D9%81%D9%86-%D8%A7%D8%A8.jpeg" },
