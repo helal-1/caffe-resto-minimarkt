@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESTO</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="./assets/img/WhatsApp 22_06_2025 11_19_27 م.png" type="image/x-icon" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h2 class="logo">Resto</h2>
+    <h1>كافيه وميني ماركت</h1>
+    <p>قهوتك... طازجة دائمًا</p>
+  </header>
+
+  <!-- Hero Slider -->
+  <section class="hero-slider">
+    <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');">
+      <h2>استمتع بأفضل مشروبات القهوة والعصاير الطازجة</h2>
+    </div>
+    <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1541747142006-76cbe366c675?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8');">
+      <h2>نكهات لا تُنسى في كل رشفة</h2>
+    </div>
+    <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5');">
+      <h2>حلويات وميلك تشك مميزة</h2>
+    </div>
+    <div class="slider-controls">
+      <button class="prev">‹</button>
+      <button class="next">›</button>
+    </div>
+    <div class="slider-dots"></div>
+  </section>
+
+  <!-- Scroll Gallery -->
+  <section class="scroll-gallery">
+    <div class="scroll-item">
+      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&h=300" alt="قهوة">
+      <p>قهوة</p>
+    </div>
+    <div class="scroll-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpvosGP3NaA20LZ5r2bPwXn6odvAlZQCqmiw&s" alt="عصاير">
+      <p>عصاير</p>
+    </div>
+    <div class="scroll-item">
+      <img src="https://media.gemini.media/img/large/2020/11/12/2020_11_12_18_11_52_572.jpg" alt="بن">
+      <p>بن</p>
+    </div>
+    <div class="scroll-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHfC_7BL1GOugrHQLbpuv6z5kaL8N_6IgkxQ&s" alt="ميلك اشك">
+      <p>ميلك اشك</p>
+    </div>
+    <div class="scroll-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCc1C54TpTKw13-mkSnVSu_TQxF_dJpt3ODg&s" alt="موخيتو">
+      <p>موخيتو</p>
+    </div>
+    <div class="scroll-item">
+      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&h=300" alt="اسبريسو">
+      <p>اسبريسو</p>
+    </div>
+    <div class="scroll-item">
+      <img src="https://d26czciiy2b0rz.cloudfront.net/uploads/images/WC-Main2-1678782782.jpg" alt="وافل">
+      <p>وافل</p>
+    </div>
+    <div class="scroll-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhSAZx3-MT6T7gbXGAUprTnEidGDjg4d0fGA&s" alt="بان كيك">
+      <p>بان كيك</p>
+    </div>
+  </section>
+
+  <!-- Filter Buttons -->
+  <div class="category-title">
+    <h2>الأصناف</h2>
+    <div id="filter-buttons">
+      <button onclick="filterProducts('all')">الكل</button>
+      <button onclick="filterProducts('قهوة')">قهوة</button>
+      <button onclick="filterProducts('البن')">البن</button>
+      <button onclick="filterProducts('موخيتو')">موخيتو</button>
+      <button onclick="filterProducts('ميلك تشك')">ميلك تشك</button>
+      <button onclick="filterProducts('ديزرت')">ديزرت</button>
+    </div>
+  </div>
+
+  <!-- Products -->
+  <section class="products">
+ 
+    <!-- أضف منتجات إضافية هنا -->
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 محمد هلال – جميع الحقوق محفوظة</p>
+    <div class="social">
+      <a href="https://www.facebook.com/share/12McAykq2pK/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i> فيسبوك</a>
+      <a href="https://wa.me/+20 115 695 2825" target="_blank"><i class="fab fa-whatsapp"></i> واتساب</a>
+    </div>
+  </footer>
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+  
+  <!-- JavaScript -->
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
