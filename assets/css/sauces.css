@@ -23,6 +23,11 @@
   font-size: 14px;
 }
 
+.sauces-list button.selected {
+  background: #d32f2f;
+  color: white;
+}
+
 .sauces-list button:hover {
   background: #6d4c41;
 }
