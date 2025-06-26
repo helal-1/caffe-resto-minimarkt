@@ -21,7 +21,7 @@ const products = [
     // قهوة
     { name: "دبل اسبريسوا", type: "قهوة", price: 35, image: "assets/img/بل اسبريسوا.avif" },
     { name: "بن فاتح", type: "قهوة", price: 20, image: "assets/img/بن فاتح فنجان.webp" },
-    { name: "بن وسط", type: "قهوة", price: 20, image: "assets/img/بن وسط فنجان.webp"},
+    { name: "بن وسط", type: "قهوة", price: 20, image: "assets/img/بن وسط فنجان.webp" },
     { name: "بن غامق", type: "قهوة", price: 20, image: "assets/img/بن غامق.jpg" },
     { name: " قهوة فرنساوي ", type: "قهوة", price: 30, image: "assets/img/فرنساوي.jpg" },
     { name: "قهوة بندق", type: "قهوة", price: 30, image: "assets/img/قهوة بندق.webp" },
@@ -34,9 +34,9 @@ const products = [
     { name: "نسكافيه بلاك", type: "كابتشينو", price: 30, image: "assets/img/بن اسبريسوا.jpg" },
     { name: "كابتشينو موكا", type: "كابتشينو", price: 35, image: "assets/img/موكا_1.jpeg" },
     { name: "كابتشينو فانيليا", type: "كابتشينو", price: 35, image: "assets/img/ميلك اتشك فانيليا.png" },
-    { name: "كابتشينو لاتيه", type: "كابتشينو", price: 35, image: "assets/img/لاتيه.jpeg" },
+    { name: "كابتشينو لاتيه", type: "كابتشينو", price: 35, image: "assets/img/اسبنش لاتيه.jpg" },
     { name: "ميكاتو فيليفر", type: "كابتشينو", price: 40, image: "assets/img/اسبريسوا ميكاتو.jpg" },
-    { name: "لاتيه", type: "كابتشينو", price: 35, image: "assets/img/لاتيه.jpeg" },
+    { name: "اسبنش لاتيه ", type: "كابتشينو", price: 35, image: "assets/img/لاتيه.jpeg" },
     { name: "هوت شوكلت", type: "كابتشينو", price: 35, image: "assets/img/ميلك اتشك شيكولاته.jpeg" },
     { name: "كابتشينو سينجل", type: "كابتشينو", price: 35, image: "assets/img/كابتشينو.jpeg" },
     { name: "كابتشينو دبل", type: "كابتشينو", price: 50, image: "assets/img/كابتشينو دبل.jpeg" },
@@ -62,7 +62,7 @@ const products = [
     { name: "عصير ليمون", type: "عصاير فريش", price: 30, image: "assets/img/ليمون.jpg" },
     { name: "عصير اناناس", type: "عصاير فريش", price: 35, image: "assets/img/اناناس.jpg.webp" },
     { name: "عصير افوكادو", type: "عصاير فريش", price: 65, image: "assets/img/افوكادو.jpg" },
-  
+
     // موخيتو
     { name: "موخيتو مانجا", type: "موخيتو", price: 50, image: "assets/img/1موخيتو مانجا.jpeg" },
     { name: "موخيتو فراولة", type: "موخيتو", price: 50, image: "assets/img/موخيتو فراولة.jpg" },
@@ -70,19 +70,19 @@ const products = [
     { name: "موخيتو مكس بيري", type: "موخيتو", price: 55, image: "assets/img/موخيتو مكس بيري.jpg" },
     { name: "موخيتو توت", type: "موخيتو", price: 55, image: "assets/img/موخيتو توت.jpeg" },
     { name: "موخيتو بلو بيري", type: "موخيتو", price: 50, image: "assets/img/موخيتو بلو بيري.jpeg" },
-  
+
     // البن
-    { name: "بن فاتح", type: "البن",  weight: "1k", image: "assets/img/بن فاتح.webp" },
-    { name: "بن وسط", type: "البن",  weight: "1k", image: "assets/img/بن وسط.jpeg" },
-    { name: "بن غامق", type: "البن",  weight: "1k", image: "assets/img/بن غامق.jpeg" },
-    { name: "بن برازيلي ", type: "البن",  weight: "1k", image: "assets/img/بن برازيلي.jpeg" },
-    { name: "بن كولمبي", type: "البن",  weight: "1k", image: "assets/img/كولمبي.webp" },
-    { name: "بن حبشي", type: "البن",  weight: "1k", image: "assets/img/بن حبشي.webp" },
-    { name: "بن يمني", type: "البن",  weight: "1k", image: "assets/img/بن يمني.jpg" },
+    { name: "بن فاتح", type: "البن", weight: "1k", image: "assets/img/بن فاتح.webp" },
+    { name: "بن وسط", type: "البن", weight: "1k", image: "assets/img/بن وسط.jpeg" },
+    { name: "بن غامق", type: "البن", weight: "1k", image: "assets/img/بن غامق.jpeg" },
+    { name: "بن برازيلي ", type: "البن", weight: "1k", image: "assets/img/بن برازيلي.jpeg" },
+    { name: "بن كولمبي", type: "البن", weight: "1k", image: "assets/img/كولمبي.webp" },
+    { name: "بن حبشي", type: "البن", weight: "1k", image: "assets/img/بن حبشي.webp" },
+    { name: "بن يمني", type: "البن", weight: "1k", image: "assets/img/بن يمني.jpg" },
     { name: "بن هندي", type: "البن", weight: "1k", image: "assets/img/هندي بن.jpeg" },
-    { name: "بن اسيريسوا", type: "البن",  weight: "1k", image: "assets/img/بن اسبريسوا.jpg" },
-    { name: "بن اندونيسي", type: "البن",  weight: "1k", image: "assets/img/بن اندونسي.jpg" },
-  
+    { name: "بن اسيريسوا", type: "البن", weight: "1k", image: "assets/img/بن اسبريسوا.jpg" },
+    { name: "بن اندونيسي", type: "البن", weight: "1k", image: "assets/img/بن اندونسي.jpg" },
+
     // ميلك تشك
     { name: "ميلك شيك فراولة", type: "ميلك تشك", price: 55, image: "assets/img/ميلك شك فراولة.jpeg" },
     { name: "ميلك شيك شوكولاتة", type: "ميلك تشك", price: 60, image: "assets/img/ميلك اتشك شيكولاته.jpeg" },
@@ -95,22 +95,20 @@ const products = [
     { name: "ميلك شيك كيت كتات", type: "ميلك تشك", price: 70, image: "assets/img/ميلك اتشك كيت كات.jpg" },
     { name: "ميلك شيك كيندر", type: "ميلك تشك", price: 70, image: "assets/img/ميلك اتشك كيندر.jpeg" },
     { name: "ميلك شيك سنيكرز", type: "ميلك تشك", price: 70, image: "assets/img/ميلك اتشك اسنيكرز.jpg" },
-  
+
     // ديزرت
-    { name: "وافل", type: "ديزرت",  image: "assets/img/وافل.jpg" },
-    { name: "بان كيك", type: "ديزرت",  image: "assets/img/بان كيك.jpeg" },
-    { name: "كب كيك", type: "ديزرت",  image: "assets/img/كب كيك.jpg" },
-    { name: "طاجن نوتيلا", type: "ديزرت",  image: "assets/img/طاجن نوتيلا.jpg" },
-    
-    // ذبادي فواكة 
+    { name: "وافل", type: "ديزرت", image: "assets/img/وافل.jpg" },
+    { name: "بان كيك", type: "ديزرت", image: "assets/img/بان كيك.jpeg" },
+    { name: "كب كيك", type: "ديزرت", image: "assets/img/كب كيك.jpg" },
+    { name: "طاجن نوتيلا", type: "ديزرت", image: "assets/img/طاجن نوتيلا.jpg" },
+
+    // ذبادي فواكة
     { name: "ذبادي فواكة", type: "ذبادي فواكة", price: 55, image: "assets/img/ذبادي فواكهة.jpeg" },
     { name: "ذبادي فراولة", type: "ذبادي فواكة", price: 45, image: "assets/img/ذبادي فراولة.jpeg" },
     { name: "ذبادي توت", type: "ذبادي فواكة", price: 55, image: "assets/img/ذبادي توت.jpg" },
     { name: "ذبادي موز", type: "ذبادي فواكة", price: 45, image: "assets/img/ذبادي موز.jpg" },
-    { name: "ذبادي مانجا",type: "ذبادي فواكة",price: 45 , image:"assets/img/ذبادي مانجا.jpeg"}
-    
-
-  ];
+    { name: "ذبادي مانجا", type: "ذبادي فواكة", price: 45, image: "assets/img/ذبادي مانجا.jpeg" },
+];
 // Initialize loader
 const loader = document.getElementById('loader');
 
