@@ -28,7 +28,7 @@ const products = [
     { name: "قهوة شيكولاته", type: "قهوة", price: 30, image: "assets/img/قهوة شيكولاته.jpeg" },
     { name: "أميريكانو", type: "قهوة", price: 30, image: "assets/img/امريكانو.jpg" },
     { name: "موكا", type: "قهوة", price: 40, image: "assets/img/موكا_1.jpeg" },
-    { name: "اسبريسو ميكاتو", type: "قهوة", price: 38, image: "assets/img/اسبريسوا ميكاتو.jpg" },
+    { name: "اسبريسو ميكاتو", type: "قهوة", price: 40, image: "assets/img/اسبريسوا ميكاتو.jpg" },
 
     // كابتشينو
     { name: "نسكافيه بلاك", type: "كابتشينو", price: 30, image: "assets/img/بن اسبريسوا.jpg" },
