@@ -342,7 +342,7 @@ function displayProducts() {
     let totalPrice = product.price + totalSaucePrice;
 
     const whatsappMessage = encodeURIComponent(`مرحباً، أريد طلب:\n${product.name} بسعر ${product.price} جنيه${sauceText}\n\nالعنوان: [أدخل العنوان هنا]\n\nشكراً`);
-    const whatsappLink = `https://wa.me/+201156952825?text=${whatsappMessage}`;
+    const whatsappLink = `https://wa.me/+201014808982?text=${whatsappMessage}`;
 
     // Create price element for all items except desserts and coffee beans
     const priceElement = !(product.type === 'ديزرت' || product.type === 'البن') ? `<p>${product.price} جنيه</p>` : '';
@@ -405,7 +405,7 @@ function updateWhatsAppLink(productName) {
   const totalPrice = product.type === 'ديزرت' ? totalSaucePrice : product.price + totalSaucePrice;
 
   const whatsappMessage = encodeURIComponent(`مرحباً، أريد طلب:\n${product.name}${sauceText}\n\nالسعر الإجمالي: ${totalPrice} جنيه\nالعنوان: [أدخل العنوان هنا]\n\nشكراً`);
-  const whatsappLink = `https://wa.me/+201156952825?text=${whatsappMessage}`;
+  const whatsappLink = `https://wa.me/+201014808982?text=${whatsappMessage}`;
 
   const button = document.querySelector(`#order-${product.name.replace(/\s+/g, '-')}`);
   if (button) {
