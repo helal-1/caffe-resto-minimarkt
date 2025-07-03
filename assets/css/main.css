@@ -44,6 +44,7 @@ header{
     overflow: hidden;
   }
   .hero-slide {
+    text-align: center;
     position: absolute;
     width: 100%;
     height: 100%;

@@ -5,7 +5,32 @@ const sauces = {
     { name: "لوتس", price: 40 },
     { name: "شيكولاته وايت", price: 35 },
     { name: "بستاشيو", price: 45 },
-    { name: "فراولة", price: 35 },
+    { name: "فراولة", price: 35 }
+  ],
+  "طاجن نوتيلا": [
+    { name: "نوتيلا", price: 45 },
+    { name: "لوتس", price: 50 },
+    { name: "شوكليت", price: 45 },
+    { name: "بيستاشيو", price: 55 },
+  ],
+  "وافل": [
+    { name: "نوتيلا", price: 35 },
+    { name: "شوكليت", price: 35 },
+    { name: "وايت شوكليت", price: 35 },
+    { name: "لوتس", price: 40 },
+    { name: "كراميل", price: 35 },
+    { name: "بيستاشيو", price: 45 }
+  ],
+  "بان كيك": [
+    { name: "ميديم", price: 35 },
+    { name: "لارج", price: 45 },
+  ],
+  "كب كيك": [
+    { name: "شيكولاته", price: 35 },
+    { name: "لوتس", price: 35 },
+    { name: "ريد فيلف", price: 35 },
+    { name: "بلو فيلف", price: 35 },
+    { name: "بيستاشيو", price: 45 },
   ]
 };
 
@@ -210,7 +235,18 @@ function filterProducts(category) {
 
     let saucesButton = '';
     let saucesListHtml = '';
-    if (sauces[product.type]) {
+    // Check if it's طاجن نوتيلا, وافل, بان كيك, or كب كيك and use their special sauces
+    if (['طاجن نوتيلا', 'وافل', 'بان كيك', 'كب كيك'].includes(product.name)) {
+      const specialSauces = sauces[product.name];
+      saucesListHtml = `
+        <div class="sauces-list" style="display: none;">
+          ${specialSauces.map(sauce => `
+            <button onclick="addSauceToOrder('${sauce.name}', ${sauce.price}, '${product.name}')">${sauce.name} (+${sauce.price} جنيه)</button>
+          `).join('')}
+        </div>
+      `;
+      saucesButton = `<button class="show-sauces">اختر الصوص</button>`;
+    } else if (sauces[product.type]) {
       saucesListHtml = `
         <div class="sauces-list" style="display: none;">
           ${sauces[product.type].map(sauce => `
@@ -278,7 +314,18 @@ function displayProducts() {
 
     let saucesButton = '';
     let saucesListHtml = '';
-    if (sauces[product.type]) {
+    // Check if it's طاجن نوتيلا, وافل, بان كيك, or كب كيك and use their special sauces
+    if (['طاجن نوتيلا', 'وافل', 'بان كيك', 'كب كيك'].includes(product.name)) {
+      const specialSauces = sauces[product.name];
+      saucesListHtml = `
+        <div class="sauces-list" style="display: none;">
+          ${specialSauces.map(sauce => `
+            <button onclick="addSauceToOrder('${sauce.name}', ${sauce.price}, '${product.name}')">${sauce.name} (+${sauce.price} جنيه)</button>
+          `).join('')}
+        </div>
+      `;
+      saucesButton = `<button class="show-sauces">اختر الصوص</button>`;
+    } else if (sauces[product.type]) {
       saucesListHtml = `
         <div class="sauces-list" style="display: none;">
           ${sauces[product.type].map(sauce => `
@@ -433,7 +480,18 @@ function filterProducts(category) {
 
     let saucesButton = '';
     let saucesListHtml = '';
-    if (sauces[product.type]) {
+    // Check if it's طاجن نوتيلا, وافل, بان كيك, or كب كيك and use their special sauces
+    if (['طاجن نوتيلا', 'وافل', 'بان كيك', 'كب كيك'].includes(product.name)) {
+      const specialSauces = sauces[product.name];
+      saucesListHtml = `
+        <div class="sauces-list" style="display: none;">
+          ${specialSauces.map(sauce => `
+            <button onclick="addSauceToOrder('${sauce.name}', ${sauce.price}, '${product.name}')">${sauce.name} (+${sauce.price} جنيه)</button>
+          `).join('')}
+        </div>
+      `;
+      saucesButton = `<button class="show-sauces">اختر الصوص</button>`;
+    } else if (sauces[product.type]) {
       saucesListHtml = `
         <div class="sauces-list" style="display: none;">
           ${sauces[product.type].map(sauce => `
@@ -451,7 +509,7 @@ function filterProducts(category) {
     const totalPrice = product.price + totalSaucePrice;
 
     const whatsappMessage = encodeURIComponent(`مرحباً، أريد طلب:\n${product.name} بسعر ${product.price} جنيه${sauceText}\n\nالعنوان: [أدخل العنوان هنا]\n\nشكراً`);
-    const whatsappLink = `https://wa.me/+201156952825?text=${whatsappMessage}`;
+    const whatsappLink = `https://wa.me/+201014808982?text=${whatsappMessage}`;
 
     // Create price element for all items except desserts and coffee beans
     const priceElement = !(product.type === 'ديزرت' || product.type === 'البن') ? `<p>${product.price} جنيه</p>` : '';
