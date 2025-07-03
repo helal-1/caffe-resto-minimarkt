@@ -125,7 +125,7 @@ const products = [
     { name: "وافل", type: "ديزرت", image: "assets/img/وافل.jpg" },
     { name: "بان كيك", type: "ديزرت", image: "assets/img/بان كيك.jpeg" },
     { name: "كب كيك", type: "ديزرت", image: "assets/img/كب كيك.jpg" },
-    { name: "طاجن نوتيلا", type: "ديزرت", image: "assets/img/طاجن نوتيلا.jpg" },
+    { name: "طواجن رستو", type: "ديزرت", image: "assets/img/طاجن نوتيلا.jpg" },
 
     // ذبادي فواكة
     { name: "زبادي فواكة", type: "ذبادي فواكة", price: 55, image: "assets/img/ذبادي فواكهة.jpeg" },
