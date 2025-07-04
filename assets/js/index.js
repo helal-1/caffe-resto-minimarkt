@@ -4,7 +4,7 @@ const sauces = {
     { name: "نوتيلا", price: 45 },
     { name: "لوتس", price: 50 },
     { name: "شوكليت", price: 45 },
-    { name: "بيستاشيو", price: 55 },
+    { name: "بيستاشيو", price: 65 },
   ],
   "وافل": [
     { name: "نوتيلا", price: 45 },
@@ -19,11 +19,11 @@ const sauces = {
     { name: "لارج", price: 45 },
   ],
   "كب كيك": [
-    { name: "شيكولاته", price: 35 },
-    { name: "لوتس", price: 35 },
-    { name: "ريد فيلف", price: 35 },
-    { name: "بلو فيلف", price: 35 },
-    { name: "بيستاشيو", price: 45 },
+    { name: "شيكولاته", price: 45 },
+    { name: "لوتس", price: 50 },
+    { name: "ريد فيلف", price: 50 },
+    { name: "بلو فيلف", price: 50 },
+    { name: "بيستاشيو", price: 65 },
   ]
 };
 
