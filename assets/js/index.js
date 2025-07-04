@@ -1,13 +1,6 @@
 const sauces = {
-  "ديزرت": [
-    { name: "نوتيلا", price: 35 },
-    { name: "شوكولاتة", price: 35 },
-    { name: "لوتس", price: 40 },
-    { name: "شيكولاته وايت", price: 35 },
-    { name: "بستاشيو", price: 45 },
-    { name: "فراولة", price: 35 }
-  ],
-  "طاجن نوتيلا": [
+ 
+  "طواجن رستو": [
     { name: "نوتيلا", price: 45 },
     { name: "لوتس", price: 50 },
     { name: "شوكليت", price: 45 },
@@ -236,7 +229,7 @@ function filterProducts(category) {
     let saucesButton = '';
     let saucesListHtml = '';
     // Check if it's طاجن نوتيلا, وافل, بان كيك, or كب كيك and use their special sauces
-    if (['طاجن نوتيلا', 'وافل', 'بان كيك', 'كب كيك'].includes(product.name)) {
+    if (['طواجن رستو', 'وافل', 'بان كيك', 'كب كيك'].includes(product.name)) {
       const specialSauces = sauces[product.name];
       saucesListHtml = `
         <div class="sauces-list" style="display: none;">
@@ -315,7 +308,7 @@ function displayProducts() {
     let saucesButton = '';
     let saucesListHtml = '';
     // Check if it's طاجن نوتيلا, وافل, بان كيك, or كب كيك and use their special sauces
-    if (['طاجن نوتيلا', 'وافل', 'بان كيك', 'كب كيك'].includes(product.name)) {
+    if (['طواجن رستو', 'وافل', 'بان كيك', 'كب كيك'].includes(product.name)) {
       const specialSauces = sauces[product.name];
       saucesListHtml = `
         <div class="sauces-list" style="display: none;">
@@ -481,7 +474,7 @@ function filterProducts(category) {
     let saucesButton = '';
     let saucesListHtml = '';
     // Check if it's طاجن نوتيلا, وافل, بان كيك, or كب كيك and use their special sauces
-    if (['طاجن نوتيلا', 'وافل', 'بان كيك', 'كب كيك'].includes(product.name)) {
+    if (['طواجن رستو', 'وافل', 'بان كيك', 'كب كيك'].includes(product.name)) {
       const specialSauces = sauces[product.name];
       saucesListHtml = `
         <div class="sauces-list" style="display: none;">
