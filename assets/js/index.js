@@ -14,12 +14,12 @@ const sauces = {
     { name: "بيستاشيو", price: 55 },
   ],
   "وافل": [
-    { name: "نوتيلا", price: 35 },
-    { name: "شوكليت", price: 35 },
-    { name: "وايت شوكليت", price: 35 },
-    { name: "لوتس", price: 40 },
-    { name: "كراميل", price: 35 },
-    { name: "بيستاشيو", price: 45 }
+    { name: "نوتيلا", price: 45 },
+    { name: "شوكليت", price: 45 },
+    { name: "وايت شوكليت", price: 45 },
+    { name: "لوتس", price: 50 },
+    { name: "كراميل", price: 45 },
+    { name: "بيستاشيو", price: 60 }
   ],
   "بان كيك": [
     { name: "ميديم", price: 35 },
